@@ -4,7 +4,7 @@ CI/CD Deployment of Flask Backend & Express Frontend on AWS EC2 using Jenkins
 
  Project Description
 
-This project demonstrates the deployment of a Flask backend application and an Express frontend application on a single Amazon EC2 instance. A CI/CD pipeline is implemented using Jenkins to automate code deployment, dependency installation, and application restart upon every GitHub push using webhooks.
+This project demonstrates the deployment of a Flask backend application and an Express frontend application on a single Amazon EC2 instance. A CI/CD pipeline is implemented using Jenkins to automate code deployment, dependency installation, and application restarts upon every GitHub push using webhooks.
 
 Architecture Overview
 Developer → GitHub → Webhook → Jenkins → EC2 Deployment → Live Apps
